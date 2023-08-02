@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="iiiiinetbanking Test Suite">
+
+	<parameter name="browsername" value="edge" />
+
+
+	<test name="LoginTC_001">
+		<classes>
+			<class name="com.iiiiinetbanking.testcases.LoginTC_001" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

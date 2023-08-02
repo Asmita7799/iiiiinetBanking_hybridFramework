@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [iiiiinetbanking Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="firefox"/>
+  <test thread-count="5" name="LoginTC_001(failed)">
+    <classes>
+      <class name="com.iiiiinetbanking.testcases.LoginTC_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLoginFunctionalityTC_002"/>
+          <include name="inti"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.iiiiinetbanking.testcases.LoginTC_001 -->
+    </classes>
+  </test> <!-- LoginTC_001(failed) -->
+</suite> <!-- Failed suite [iiiiinetbanking Test Suite] -->
